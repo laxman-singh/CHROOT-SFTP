@@ -47,7 +47,7 @@ function main() {
 function createUser () {
 
 	while true; do
-		echo -e "1.) Press 1 for creating a new SFTP User\n2.) Press q for exiting the program.\n"
+		echo -e "1.) Press 1 for creating a new SFTP User\n2.) Press q to quit program.\n"
 		read -p " : " input
 		case $input in
 			1 ) createSFTPUser; break;;
